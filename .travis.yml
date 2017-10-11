@@ -1,0 +1,16 @@
+addons:
+
+  sonarcloud:
+
+    organization: "mxalexandre-github"
+
+    token:
+
+      secure: "811337f0e3702f34ddb2baf470b8dbec0ba34e11"
+
+
+ 
+
+script:
+
+  - sonar-scanner
